@@ -1,0 +1,60 @@
+
+
+  body {
+    /* fallback for old browsers */
+    background: #6a11cb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(176, 148, 205), rgb(118, 162, 238));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(202, 187, 133), rgb(219, 141, 38))
+  }
+ 
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  /* form{
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: white;
+    padding: 152px 624px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  } */
+  
+  .roman{
+    border-radius:23px;
+    padding: 12px;
+    width: 400%;
+  }
+  
+  .iron{
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    position: relative;
+  }
+  
+  .login{
+    padding: 11px;
+    margin: 12px;
+    border: #4CAF50;
+    align-items: center;
+    border-radius: 13px;
+  }
+  @media only screen and (max-width: 600px) {
+}
